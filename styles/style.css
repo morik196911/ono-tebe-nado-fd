@@ -271,7 +271,6 @@
 
 .about__logo {
   position: relative;
-  position: absolute;
   top: 35px;
   left: 47px;
   width: 240px;
@@ -343,7 +342,8 @@
 }
 
 .footer__menu-link {
-  text-decoration: underline; 
+  text-decoration: underline;
+
 }
 
 .footer__menu-link_active {
