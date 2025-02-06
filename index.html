@@ -40,30 +40,31 @@
       265. Амстердам
       </address>
     </header>
-    <main>
-      <section class="cover">
-        <div class="overlay cover_section_styles">
+    <main class="main">
+      <section class="cover cover__section-styles">
         <h1 class="cover__title">
-          <span class="aligned-text letter-spacing-extended">ОНО</span>
-          <span class="aligned-text_center letter-spacing-extended">ТЕБЕ</span>
-          <span class="aligned-text_right letter-spacing-extended">НАДО</span>
+          <span class="cover__title-text cover__title-text-first letter-spacing-extended">ОНО</span>
+          <span class="cover__title-text cover__title-text-center letter-spacing-extended">ТЕБЕ</span>
+          <span class="cover__title-text cover__title-text-right letter-spacing-extended">НАДО</span>
+          
         </h1>
         <div class="cover__description">
           <p class="cover__description-text">
             Аукцион вещей, в которые никто не верил
           </p>
-          <button class="bet-button">Сделать ставку</button>
+         
+            <button class="bet-button">Сделать ставку</button>
+         
         </div>
-      </div><!--overlay-->
+    
       </section>
 
-      <section class="lots lots_section_styles">
+      <section class="lots lots__section_styles">
         <h2 class="lots__heading">ЛОТЫ</h2>
         <ul class="lots__card-list">
-          <li class="card">
-            <div class="overlay">
+          <li>        
             <a class="card-link" href="">
-              <article class="card_article_container card_type_film">
+              <article class="card card__article_container card_type_film overlay" >
                 
                   <h3 class="card__title">
                     Фильм режиссёра, который бросил киношколу
@@ -76,13 +77,13 @@
                
               </article>
             </a>
-          </div><!--overlay-->
+         
           </li>
 
-          <li class="card">
-            <div class="overlay">
+          <li>
+           
             <a class="card-link" href="">
-              <article class="card_article_container card_type_book">
+              <article class="card card__article_container card_type_book overlay">
                 <h3 class="card__title">
                   Книга, где описан один скучный день из жизни рекламного агента
                 </h3>
@@ -96,13 +97,11 @@
                 </p>
               </article>
             </a>
-          </div><!--overlay-->
           </li>
 
-          <li class="card">
-            <div class="overlay">
+          <li>        
             <a class="card-link" href="">
-              <article class="card_article_container card_type_picture">
+              <article class="card card__article_container card_type_picture overlay">
                 <h3 class="card__title">
                   Картина, которую повторит даже 5-летний сын маминой подруги
                 </h3>
@@ -114,15 +113,15 @@
                 </p>
               </article>
             </a>
-          </div><!--overlay-->
-          </li>
+          </li>  
+
         </ul>
-        <div class="lots__look-more-link-container">
+       
           <a class="lots__look-more-link" href="">посмотреть больше</a>
-        </div>
+        
       </section>
      
-      <section class="about about_section_styles">
+      <section class="about about__section_styles">
         <div class="about__logo">
           <img class="about__logo-image" src="./images/logo-white.svg" alt="Логотип" >
         </div>
@@ -148,10 +147,12 @@
             верил никто, продолжали верить их создатели. И сейчас эти лоты 
             стали культовыми. 
           </p>
+              
         </div>
       </section>
     </main>
-    <footer class="footer footer_section_styles">
+    <footer class="footer footer__section_styles">
+
       <address class="address footer__address">
         <a href="tel:+99995555555">+9 999 555 5555</a><br>
         <a href="mailto:info@sobaka.ge">info@sobaka.ge</a><br>
@@ -166,8 +167,12 @@
               >главная</a
             >
           </li>
-          <li><a class="footer__menu-link" href="">посмотреть лоты</a></li>
-          <li><a class="footer__menu-link" href="">об аукционе</a></li>
+          <li class="footer__menu-list-item">
+            <a class="footer__menu-link" href="">посмотреть лоты</a>
+          </li>
+          <li class="footer__menu-list-item">
+            <a class="footer__menu-link" href="">об аукционе</a>
+          </li>
         </ul>
       </nav>
 
